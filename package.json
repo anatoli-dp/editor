@@ -1,0 +1,20 @@
+{
+  "name": "editor",
+  "version": "0.0.1",
+  "description": "",
+  "private": "true",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Anatole DP",
+  "license": "ISC",
+  "dependencies": {
+    "tippy.js": "^6.2.7",
+    "webpack": "^5.1.0",
+    "webpack-cli": "^4.0.0"
+  },
+  "devDependencies": {
+    "css-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^1.0.0"
+  }
+}

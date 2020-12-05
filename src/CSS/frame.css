@@ -1,0 +1,26 @@
+.eds-editor-frame {
+    position: absolute;
+    top: 0px;
+    bottom: 27px;
+    left: 0px;
+    right: 0px;
+    border-radius: 5px;
+    overflow: hidden
+}
+
+.eds-frame-control {
+    position: absolute;
+    top: 0px;
+    height: 25px;
+    left: 0px;
+    right: 0px;
+    background-color: var(--color-dark3);
+}
+
+.eds-frame-canvas {
+    position: absolute;
+    top: 25px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}

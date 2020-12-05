@@ -1,0 +1,9 @@
+.eds-editor-viewbar {
+    position: absolute;
+    height: 25px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    border-radius: 5px;
+    background-color: var(--color-dark2);
+}

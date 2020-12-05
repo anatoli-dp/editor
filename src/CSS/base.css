@@ -1,0 +1,72 @@
+:root {
+    --notWhite: #bfbfbf;
+
+    --color-dark1: #262626;
+    --color-dark2: #404040;
+    --color-dark3: #666666;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    user-select: none;
+}
+
+body {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.gjs-cv-canvas {
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+editor-base {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: black;
+}
+
+.eds-taskbar {
+    position: absolute;
+    top: 0px;
+    height: 30px;
+    left: 0px;
+    right: 0px;
+    background-color: var(--color-dark1);
+}
+
+.eds-body {
+    position: absolute;
+    top: 31px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.eds-body-left {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 302px;
+}
+
+.eds-body-right {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 300px;
+    right: 0px;
+}
